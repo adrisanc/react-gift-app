@@ -1,7 +1,7 @@
 export const getGifs = async (category) => {
     //El encodeURI permite que renplace los espacios por %20
     const url =
-      `https://api.giphy.com/v1/gifs/search?q=${encodeURI(category)}&limit=10&api_key=NaPk2o1JzBsYw4r7F8FZmeI6VmAtnU4c`;
+      `https://api.giphy.com/v1/gifs/search?q=${encodeURI(category)}&limit=10&api_key=1JLlfhgmwm8YJBz8FfCAhs7LT0Y0gesZ`;
 
     const resp = await fetch(url);
 
